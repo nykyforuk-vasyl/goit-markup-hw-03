@@ -12,7 +12,24 @@ a {
     text-decoration: none;
 }
 
-.logo {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
+/* --------------header------------------ */
+.header {}
+
+.header-menu {}
+
+.header-link-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -22,17 +39,20 @@ a {
     color: #4d5ae5;
 }
 
-.span-name {
+.header-span {
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
 
-.menu {
+.header-menu-list {}
+
+.header-menu-item {}
+
+.headeer-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -40,39 +60,40 @@ a {
     color: #2e2f42;
 }
 
-.menu:hover,
-.menu:focus {
+.headeer-menu-link:hover,
+.headeer-menu-link:focus {
     color: #404bbf;
 }
 
-.address-font {
+.headeer-contacts {
     font-style: normal;
 }
 
-.menu:hover,
-.menu:focus {
-    color: #404bbf
-}
+.header-contacts-list {}
 
-.contacts {
-    font-weight: 400;
+.header-contacts-item {}
+
+
+.header-contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts:hover,
-.contacts:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: #404bbf
 }
 
+/* --------------header------------------ */
+
+/* --------------hero------------------ */
 .hero {
     background: #2e2f42;
 }
 
-.name {
-    font-weight: 700;
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -80,7 +101,7 @@ a {
     color: #fff;
 }
 
-.button {
+.hero-button {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     background: #4d5ae5;
@@ -91,13 +112,21 @@ a {
     color: #fff;
 }
 
-.button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
+/* --------------hero------------------ */
 
-.name-features {
+/* --------------features------------------ */
+.features {}
+
+.features-list {}
+
+.features-list-item {}
+
+.features-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -105,19 +134,21 @@ a {
     color: #2e2f42;
 }
 
-.text {
+.features-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
+/* --------------features------------------ */
+
+/* --------------team------------------ */
 .team {
     background: #f4f4fd;
 }
 
-.name-our {
-    font-weight: 700;
+.team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -126,11 +157,15 @@ a {
     text-transform: capitalize
 }
 
-.name-our-text {
+.team-list {}
+
+.team-list-item {
     background-color: #FFFFFF
 }
 
-.name-team {
+.team-list-img {}
+
+.team-list-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -139,7 +174,7 @@ a {
     color: #2e2f42;
 }
 
-.name-text {
+.team-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -147,11 +182,28 @@ a {
     color: #434455;
 }
 
-.list {
+/* --------------team------------------ */
+
+/* --------------portfolio------------------ */
+.portfolio {
     background: #f4f4fd;
 }
 
-.list-name {
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-item-img {}
+
+.portfolio-item-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -159,14 +211,18 @@ a {
     color: #2e2f42;
 }
 
-.list-text {
+.portfolio-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.footer-list {
+/* --------------portfolio------------------ */
+
+/* --------------footer------------------ */
+
+.footer {
     background: #2e2f42;
 }
 
@@ -180,7 +236,7 @@ a {
     color: #4d5ae5;
 }
 
-.span-footer-name {
+.footer-span {
     color: #f4f4fd
 }
 
@@ -190,3 +246,5 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+/* --------------footer------------------ */
