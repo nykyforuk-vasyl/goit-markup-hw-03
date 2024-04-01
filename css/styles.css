@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
+.visibility: hidden {
     position: absolute !important;
     width: 1px !important;
     height: 1px !important;
@@ -68,12 +68,13 @@ img {
 
 .header-wrap-nav {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-menu {
     display: flex;
-    align-items: center padding: 24px 0 24px
+    padding: 24px 0 24px;
 }
 
 .header-link-logo {
@@ -84,7 +85,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .header-span {
@@ -97,7 +98,6 @@ img {
 }
 
 .header-menu-list {
-    padding-left: 76px;
     display: flex;
     gap: 40px;
 }
@@ -110,6 +110,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
 }
 
 .headeer-menu-link:hover,
