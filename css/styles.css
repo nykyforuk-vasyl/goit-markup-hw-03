@@ -56,10 +56,10 @@ img {
     display: block;
 }
 
-.section {
+/* .section {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+} */
 
 /* --------------header------------------ */
 .header {
@@ -192,7 +192,10 @@ img {
 /* --------------hero------------------ */
 
 /* --------------features------------------ */
-.features {}
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-list {
     display: flex;
@@ -281,7 +284,8 @@ img {
 
 /* --------------portfolio------------------ */
 .portfolio {
-    background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
